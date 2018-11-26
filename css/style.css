@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Krub');
+body, html{
+    font-family: 'Krub', sans-serif;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+}
+tr:hover{
+    background-color: rgba(127, 241, 142, 0.377);
+}
+.barra-derecha{
+    background-color: rgb(187, 179, 156);
+}
+.parrafocentrado{
+    text-align: center;
+}
+.ocultar{
+    display: none;
+}
+.fd-propio-jam{
+    background-color: rgb(216, 89, 96);
+}

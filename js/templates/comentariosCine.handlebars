@@ -1,0 +1,25 @@
+<h1>{{titulo}}</h1>
+
+{{#if admin}}
+{{#each comentario}}
+<div class="card">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">{{comentario}}</li>
+    <li class="list-group-item">{{puntaje}}</li>
+    <button type="submit" data="{{id_comentario}}" class="btn btn-lg" id="eliminarComentario">BORRAR</button>
+  </ul>
+</div>
+{{/each}}
+{{else}}
+<div class="card-body">
+  {{#each comentario}}
+  <div class="card">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">{{comentario}}</li>
+      <li class="list-group-item">{{puntaje}}</li>
+    </ul>
+  </div>
+  {{/each}}
+</div>
+</div>
+{{/if}}
